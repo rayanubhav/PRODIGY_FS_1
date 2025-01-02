@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Increase spacing between elements */
+  width: 400px; /* Make the form wider */
+  margin: auto;
+  padding: 30px; /* Increase padding for a larger look */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+  padding: 15px; /* Increase input box size */
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 18px; /* Make text bigger */
+}
+
+.button {
+  padding: 15px; /* Increase button size */
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px; /* Make text bigger */
+  cursor: pointer;
+  transition: background-color 0.2s ease; /* Add a hover effect */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darken button color on hover */
+}
